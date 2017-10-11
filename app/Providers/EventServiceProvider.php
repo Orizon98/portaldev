@@ -13,8 +13,13 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
+<<<<<<< HEAD
         'PortalDev\Events\UserRegistered' => [
             'PortalDev\Listeners\UserRegisteredListener',
+=======
+        'PortalDev\Events\Event' => [
+            'PortalDev\Listeners\EventListener',
+>>>>>>> origin/master
         ],
     ];
 

@@ -39,13 +39,19 @@ return [
         ],
 
         'database' => [
+<<<<<<< HEAD
             'driver'     => 'database',
             'table'      => 'cache',
+=======
+            'driver' => 'database',
+            'table' => 'cache',
+>>>>>>> origin/master
             'connection' => null,
         ],
 
         'file' => [
             'driver' => 'file',
+<<<<<<< HEAD
             'path'   => storage_path('framework/cache/data'),
         ],
 
@@ -53,6 +59,15 @@ return [
             'driver'        => 'memcached',
             'persistent_id' => env('MEMCACHED_PERSISTENT_ID'),
             'sasl'          => [
+=======
+            'path' => storage_path('framework/cache/data'),
+        ],
+
+        'memcached' => [
+            'driver' => 'memcached',
+            'persistent_id' => env('MEMCACHED_PERSISTENT_ID'),
+            'sasl' => [
+>>>>>>> origin/master
                 env('MEMCACHED_USERNAME'),
                 env('MEMCACHED_PASSWORD'),
             ],
@@ -61,15 +76,24 @@ return [
             ],
             'servers' => [
                 [
+<<<<<<< HEAD
                     'host'   => env('MEMCACHED_HOST', '127.0.0.1'),
                     'port'   => env('MEMCACHED_PORT', 11211),
+=======
+                    'host' => env('MEMCACHED_HOST', '127.0.0.1'),
+                    'port' => env('MEMCACHED_PORT', 11211),
+>>>>>>> origin/master
                     'weight' => 100,
                 ],
             ],
         ],
 
         'redis' => [
+<<<<<<< HEAD
             'driver'     => 'redis',
+=======
+            'driver' => 'redis',
+>>>>>>> origin/master
             'connection' => 'default',
         ],
 

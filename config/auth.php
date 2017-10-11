@@ -14,7 +14,11 @@ return [
     */
 
     'defaults' => [
+<<<<<<< HEAD
         'guard'     => 'web',
+=======
+        'guard' => 'web',
+>>>>>>> origin/master
         'passwords' => 'users',
     ],
 
@@ -37,12 +41,20 @@ return [
 
     'guards' => [
         'web' => [
+<<<<<<< HEAD
             'driver'   => 'session',
+=======
+            'driver' => 'session',
+>>>>>>> origin/master
             'provider' => 'users',
         ],
 
         'api' => [
+<<<<<<< HEAD
             'driver'   => 'token',
+=======
+            'driver' => 'token',
+>>>>>>> origin/master
             'provider' => 'users',
         ],
     ],
@@ -67,7 +79,11 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+<<<<<<< HEAD
             'model'  => PortalDev\Models\User::class,
+=======
+            'model' => PortalDev\User::class,
+>>>>>>> origin/master
         ],
 
         // 'users' => [
@@ -94,8 +110,13 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
+<<<<<<< HEAD
             'table'    => 'password_resets',
             'expire'   => 60,
+=======
+            'table' => 'password_resets',
+            'expire' => 60,
+>>>>>>> origin/master
         ],
     ],
 

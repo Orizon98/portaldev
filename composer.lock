@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "f896509e74b97a8e1dcdea1fcf2d5231",
+=======
+    "content-hash": "8f2120fa77d42a42b4210cdbe1c114e2",
+>>>>>>> origin/master
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -405,6 +409,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.5.12",
             "source": {
                 "type": "git",
@@ -415,6 +420,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/74f5831447817034838b3539c644303036df3d8e",
                 "reference": "74f5831447817034838b3539c644303036df3d8e",
+=======
+            "version": "v5.5.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "7a7b7c92ac6feae474cfe036a06643f5052d2e40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7a7b7c92ac6feae474cfe036a06643f5052d2e40",
+                "reference": "7a7b7c92ac6feae474cfe036a06643f5052d2e40",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -533,7 +550,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2017-09-22T13:33:35+00:00"
+=======
+            "time": "2017-09-19T17:46:51+00:00"
+>>>>>>> origin/master
         },
         {
             "name": "laravel/tinker",
@@ -2156,6 +2177,7 @@
     ],
     "packages-dev": [
         {
+<<<<<<< HEAD
             "name": "barryvdh/laravel-debugbar",
             "version": "v3.1.0",
             "source": {
@@ -2224,6 +2246,8 @@
             "time": "2017-09-18T13:32:46+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "doctrine/instantiator",
             "version": "1.0.5",
             "source": {
@@ -2434,6 +2458,7 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "maximebf/debugbar",
             "version": "v1.14.0",
             "source": {
@@ -2495,6 +2520,8 @@
             "time": "2017-08-17T07:17:00+00:00"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "mockery/mockery",
             "version": "0.9.9",
             "source": {

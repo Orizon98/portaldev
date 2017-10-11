@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 
 // Authentication routes
 Route::group(['prefix' => 'auth'], function() {
@@ -32,3 +33,5 @@ Route::namespace('Dashboard')->group(function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+>>>>>>> origin/master

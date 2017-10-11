@@ -20,7 +20,11 @@ return [
     ],
 
     'ses' => [
+<<<<<<< HEAD
         'key'    => env('SES_KEY'),
+=======
+        'key' => env('SES_KEY'),
+>>>>>>> origin/master
         'secret' => env('SES_SECRET'),
         'region' => 'us-east-1',
     ],
@@ -30,8 +34,13 @@ return [
     ],
 
     'stripe' => [
+<<<<<<< HEAD
         'model'  => PortalDev\User::class,
         'key'    => env('STRIPE_KEY'),
+=======
+        'model' => PortalDev\User::class,
+        'key' => env('STRIPE_KEY'),
+>>>>>>> origin/master
         'secret' => env('STRIPE_SECRET'),
     ],
 

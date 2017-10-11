@@ -35,32 +35,57 @@ return [
         ],
 
         'database' => [
+<<<<<<< HEAD
             'driver'      => 'database',
             'table'       => 'jobs',
             'queue'       => 'default',
+=======
+            'driver' => 'database',
+            'table' => 'jobs',
+            'queue' => 'default',
+>>>>>>> origin/master
             'retry_after' => 90,
         ],
 
         'beanstalkd' => [
+<<<<<<< HEAD
             'driver'      => 'beanstalkd',
             'host'        => 'localhost',
             'queue'       => 'default',
+=======
+            'driver' => 'beanstalkd',
+            'host' => 'localhost',
+            'queue' => 'default',
+>>>>>>> origin/master
             'retry_after' => 90,
         ],
 
         'sqs' => [
             'driver' => 'sqs',
+<<<<<<< HEAD
             'key'    => 'your-public-key',
             'secret' => 'your-secret-key',
             'prefix' => 'https://sqs.us-east-1.amazonaws.com/your-account-id',
             'queue'  => 'your-queue-name',
+=======
+            'key' => 'your-public-key',
+            'secret' => 'your-secret-key',
+            'prefix' => 'https://sqs.us-east-1.amazonaws.com/your-account-id',
+            'queue' => 'your-queue-name',
+>>>>>>> origin/master
             'region' => 'us-east-1',
         ],
 
         'redis' => [
+<<<<<<< HEAD
             'driver'      => 'redis',
             'connection'  => 'default',
             'queue'       => 'default',
+=======
+            'driver' => 'redis',
+            'connection' => 'default',
+            'queue' => 'default',
+>>>>>>> origin/master
             'retry_after' => 90,
         ],
 
@@ -79,7 +104,11 @@ return [
 
     'failed' => [
         'database' => env('DB_CONNECTION', 'mysql'),
+<<<<<<< HEAD
         'table'    => 'failed_jobs',
+=======
+        'table' => 'failed_jobs',
+>>>>>>> origin/master
     ],
 
 ];

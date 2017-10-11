@@ -31,17 +31,28 @@ return [
     'connections' => [
 
         'pusher' => [
+<<<<<<< HEAD
             'driver'  => 'pusher',
             'key'     => env('PUSHER_APP_KEY'),
             'secret'  => env('PUSHER_APP_SECRET'),
             'app_id'  => env('PUSHER_APP_ID'),
+=======
+            'driver' => 'pusher',
+            'key' => env('PUSHER_APP_KEY'),
+            'secret' => env('PUSHER_APP_SECRET'),
+            'app_id' => env('PUSHER_APP_ID'),
+>>>>>>> origin/master
             'options' => [
                 //
             ],
         ],
 
         'redis' => [
+<<<<<<< HEAD
             'driver'     => 'redis',
+=======
+            'driver' => 'redis',
+>>>>>>> origin/master
             'connection' => 'default',
         ],
 
