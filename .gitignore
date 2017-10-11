@@ -1,0 +1,16 @@
+vendor/
+node_modules/
+npm-debug.log
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+storage/debugbar
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+/.idea
+/.vagrant
